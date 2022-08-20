@@ -1,0 +1,17 @@
+version: "3"
+services:
+    node-express-docker:
+        environment:
+            - NODE_ENV=development
+        build:
+            context: .
+            dockerfile: Dockerfile.dev
+        volumes:
+            - ./:/usr/app
+        container_name: node-express-docker
+        expose:
+            - "3000"
+        ports:
+            - "4000:4000"
+        command: npm run dev
+
