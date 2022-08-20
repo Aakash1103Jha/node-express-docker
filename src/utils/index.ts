@@ -3,4 +3,5 @@
  * export {default as something} from './fileInThisDirectory
  */
 export { default as app } from "./app";
+export { default as DBHelper } from "./database";
 
