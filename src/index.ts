@@ -2,8 +2,9 @@ require("dotenv/config");
 require("regenerator-runtime");
 
 import { transports, format } from "winston";
+import { User } from "./models";
 
-import { app, logger } from "./utils";
+import { app, logger, sequelize } from "./utils";
 
 const PORT: string | number = process.env.PORT || 4000;
 const { NODE_ENV } = process.env;
