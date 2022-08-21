@@ -1,6 +1,6 @@
 import { connect, connection, MongooseError } from "mongoose";
 
-const DBHelper = {
+const MongoHelper = {
 	createMongoConnection: async (uri: string) => {
 		try {
 			connect(uri, () => console.info(`MongoDB Connected!`));
@@ -14,5 +14,5 @@ const DBHelper = {
 	},
 };
 
-export default DBHelper;
+export default MongoHelper;
 
