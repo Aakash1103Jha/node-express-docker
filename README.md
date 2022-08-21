@@ -59,6 +59,9 @@
 -   setup a node/express application using Docker.
 -   create and optimize workflows using Dockerfile, docker-compose and Makefile.
 -   create and support multiple environments - `development` | `production`.
+- create separate loggers for development and production environment using [Winston]
+
+[Winston]: https://www.npmjs.com/package/winston
 
 ## Challenges / Blockers / Issues
 
