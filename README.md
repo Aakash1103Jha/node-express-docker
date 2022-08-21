@@ -15,9 +15,10 @@
 
 ## Features
 
-- Typescript 
-- Docker
-- Logging (with Winston)
+-   Typescript
+-   Docker
+-   Logging (with Winston)
+-   Sequelize for SQL DB (currently using PostgreSQL in this project)
 
 ## Getting Started
 
@@ -50,3 +51,4 @@
 
 -   docker commands
 -   container port mapping
+
