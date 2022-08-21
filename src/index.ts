@@ -1,22 +1,19 @@
 require("dotenv/config");
 require("regenerator-runtime");
 
-import { transports, format } from "winston";
-import { User } from "./models";
-
-import { app, logger, sequelize } from "./utils";
+import { app, logger } from "./utils";
 
 const PORT: string | number = process.env.PORT || 4000;
 const { NODE_ENV } = process.env;
 
-const server = app.listen(PORT, () => console.info(`Server running on port ${PORT}`));
+const server = app.listen(PORT, () => logger().debug(`Server running on port ${PORT}`));
 
 if (NODE_ENV !== "production") {
-	logger.add(
-		new transports.Console({
-			format: format.colorize({ colors: { info: "blue", error: "red" } }),
-		}),
-	);
+	// logger.devLog.debug(
+	// 	new transports.Console({
+	// 		format: format.colorize({ colors: { info: "blue", error: "red" } }),
+	// 	}),
+	// );
 }
 
 export default server;

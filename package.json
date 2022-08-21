@@ -5,8 +5,8 @@
   "main": "/dist/index.js",
   "scripts": {
     "ts-build": "npx tsc",
-    "dev": "ts-node-dev ./src/index.ts",
-    "start": "node dist/index.js"
+    "dev": "NODE_ENV=development ts-node-dev ./src/index.ts",
+    "start": "NODE_ENV=production node dist/index.js"
   },
   "author": "Aakash Jha <thedevdesigner@gmail.com> (https://www.thedevdesigner.com/)",
   "license": "MIT",
