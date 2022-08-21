@@ -9,7 +9,7 @@
     "start": "node dist/index.js"
   },
   "author": "Aakash Jha <thedevdesigner@gmail.com> (https://www.thedevdesigner.com/)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
