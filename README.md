@@ -1,3 +1,5 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/Aakash1103Jha/node-express-docker?style=for-the-badge) ![GitHub](https://img.shields.io/github/license/Aakash1103Jha/node-express-docker?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues/Aakash1103Jha/node-express-docker?style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/Aakash1103Jha/node-express-docker?style=for-the-badge) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Aakash1103Jha/node-express-docker?color=orange&style=for-the-badge)
+
 # Node Express Docker
 
 ### A boilerplate node/express application with Docker integration.
@@ -13,7 +15,7 @@
 
 ## Features
 
-- Typescript
+- Typescript 
 - Docker
 - Logging (with Winston)
 
