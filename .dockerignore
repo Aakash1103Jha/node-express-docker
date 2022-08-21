@@ -8,3 +8,4 @@ docker*.yml
 node_modules
 README.md
 **/*dist
+**/*logs
