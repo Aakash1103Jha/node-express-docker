@@ -26,6 +26,19 @@
 -   Install dependencies using `npm i`
 -   Add a `.env` file, surely will be required at some point.
 -   If you would like to use MongoDB Atlas, add `MONGO_URI` in the `.env` file, with your DB connection URI.
+-   If you proceed to use [sequelize], then add the following in the `.env` file
+
+    ```
+    SEQUELIZE_DIALECT=/* one of 'mysql' | 'mariadb' | 'postgres' | 'mssql' */
+    SEQUELIZE_PORT=your_db_port
+    SEQUELIZE_DATABASE_NAME=your_db_name
+    SEQUELIZE_DATABASE_USERNAME=your_username
+    SEQUELIZE_DATABASE_PASSWORD=your_password
+    ```
+
+-   All log files are generated in `./src/logs` directory
+
+[sequelize]: https://sequelize.org/docs/v6/getting-started/
 
 ## Building an Image and Starting a Container
 
