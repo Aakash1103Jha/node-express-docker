@@ -1,31 +1,21 @@
 # Node Express Docker
 
-**A boilerplate to dockerize a node/express application.**
+### A boilerplate node/express application with Docker integration.
 
 ## Stack
 
-<p><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" width="70" height="70" style="margin-right:10px" alt="Typescript" /></a>
-<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="70" height="70" style="margin-right:10px" alt="NodeJS" /> 
-<a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-dark.svg" width="70" height="70" style="margin-right:10px" alt="Express" /></a>
-<a href="https://docker.com/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/docker.svg" width="70" height="70" style="margin-right:10px" alt="Express" /></a>
-<a href="https://mongodb.com/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" width="70" height="70" style="margin-right:10px" alt="Express" /></a>
+<p><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" width="60" height="60" style="margin-right:10px" alt="Typescript" /></a> 
+<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="60" height="60" style="margin-right:10px" alt="NodeJS" /> 
+<a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-dark.svg" width="60" height="60" style="margin-right:10px" alt="Express" /></a>
+<a href="https://docker.com/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/docker.svg" width="60" height="60" style="margin-right:10px" alt="Express" /></a>
+<a href="https://mongodb.com/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" width="60" height="60" style="margin-right:10px" alt="MongoDB" /></a>
 </p>
 
--   NodeJS
--   Express.js
--   Docker
+## Features
 
-## Learning Outcomes
-
--   better understanding about simple and complex concepts of Docker, alongside NodeJS.
--   setup a node/express application using Docker.
--   create and optimize workflows using Dockerfile, docker-compose and Makefile.
--   create and support multiple environments - `development` | `production`.
-
-## Challenges / Blockers / Issues
-
--   docker commands
--   container port mapping
+- Typescript
+- Docker
+- Logging (with Winston)
 
 ## Getting Started
 
@@ -47,3 +37,14 @@
 -   Visit `localhost:4000/welcome` to check if everything is working.
 -   Feel free to make any other changes, according to your project needs.
 
+## Learning Outcomes
+
+-   better understanding about simple and complex concepts of Docker, alongside NodeJS.
+-   setup a node/express application using Docker.
+-   create and optimize workflows using Dockerfile, docker-compose and Makefile.
+-   create and support multiple environments - `development` | `production`.
+
+## Challenges / Blockers / Issues
+
+-   docker commands
+-   container port mapping
